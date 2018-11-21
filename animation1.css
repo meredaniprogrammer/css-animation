@@ -1,0 +1,35 @@
+body{
+    background: lightblue;
+}
+.circle{
+    width: 100px;
+    cursor: pointer;
+    padding: 50px 0;
+    margin: 66px auto;
+    border-radius: 50px;
+    background: pink;
+    color: white;
+    line-height: 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 1s, transform 0.3s;
+    
+}
+.circle:hover{
+    background: salmon;
+    transform: rotate(360deg);
+}
+.Photo-edit img{
+    width: 100px;
+    padding: 30px auto;
+    cursor: pointer;
+    margin: 66px auto;
+    transition: transform 1s;
+    text-align: center;
+    
+}
+
+.Photo-edit img:hover{
+    transform: rotate(360deg);
+}
